@@ -79,7 +79,7 @@ interface SiteDataContextType {
 
 const SiteDataContext = createContext<SiteDataContextType | undefined>(undefined);
 
-const LOCAL_STORAGE_KEY = 'vivaan_school_site_data_v5';
+const LOCAL_STORAGE_KEY = 'vivaan_school_site_data_v6';
 const ADMIN_AUTH_KEY = 'vivaan_school_admin_auth_v1';
 
 export const SiteDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
