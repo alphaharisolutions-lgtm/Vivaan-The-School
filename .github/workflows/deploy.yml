@@ -33,7 +33,7 @@ jobs:
       - name: Deploy Files to Hostinger public_html
         run: |
           npm install ftp-deploy
-          node scripts/deploy-ftp.js
+          node scripts/deploy-ftp.cjs
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
