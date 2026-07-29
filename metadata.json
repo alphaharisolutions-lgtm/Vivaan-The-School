@@ -1,0 +1,6 @@
+{
+  "name": "New Era's Vivaan The School",
+  "description": "Premium modern school website for New Era's Vivaan The School (Nursery to Grade X IIT Foundation) in Khammam, Telangana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
