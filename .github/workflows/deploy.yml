@@ -31,11 +31,10 @@ jobs:
         run: npm run build
 
       - name: Deploy Files to Hostinger public_html
-        uses: SamKirland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /public_html/
-          dangerously-clean-slug: false
+        run: |
+          npm install ftp-deploy
+          node scripts/deploy-ftp.js
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
