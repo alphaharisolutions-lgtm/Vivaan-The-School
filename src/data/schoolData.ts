@@ -168,7 +168,7 @@ export const FACILITIES: Facility[] = [
     category: 'Academics',
     description: 'Interactive audio-visual digital classrooms empowering students with engaging conceptual lessons and digital learning tools.',
     features: ['Interactive Smart Screens', 'Digital Content Suite', 'Ergonomic Student Seating', 'Optimal Natural Ventilation'],
-    image: '/Smart Digital Classrooms.jpeg',
+    image: '/smart-digital-classrooms.jpeg',
     iconName: 'Tv'
   },
   {
@@ -177,7 +177,7 @@ export const FACILITIES: Facility[] = [
     category: 'Practicals',
     description: 'Fully equipped Physics, Chemistry, and Biology practical lab facilities fostering curiosity and hands-on experimental inquiry.',
     features: ['Hands-on Experiment Tables', 'Safety Standards & Equipment', 'Microscopes & Reagents', 'Teacher Guided Demonstrations'],
-    image: '/Advanced Science Laboratories.jpeg',
+    image: '/advanced-science-laboratories.jpeg',
     iconName: 'FlaskConical'
   },
   {
@@ -186,7 +186,7 @@ export const FACILITIES: Facility[] = [
     category: 'Innovation',
     description: 'Student-led scientific model building, STEM exhibitions, and creative problem-solving projects for state-level competitions.',
     features: ['STEM Model Making', 'Exhibition Displays', 'Working Prototype Kits', 'Analytical Guidance'],
-    image: '/Science Projects.jpeg',
+    image: '/science-projects.jpeg',
     iconName: 'Brain'
   },
   {
@@ -195,7 +195,7 @@ export const FACILITIES: Facility[] = [
     category: 'Sports',
     description: 'Vast open sports ground for volleyball, athletics, physical fitness, cricket, and outdoor team championships.',
     features: ['Volleyball & Badminton Courts', 'Athletic Fitness Track', 'Professional Sports Coaches', 'Team Spirit & Physical Wellness'],
-    image: '/Sports.jpeg',
+    image: '/sports.jpeg',
     iconName: 'Dumbbell'
   },
   {
@@ -204,7 +204,7 @@ export const FACILITIES: Facility[] = [
     category: 'Co-Curricular',
     description: 'Dedicated platform for literary events, cultural talent showcases, debate competitions, and creative arts.',
     features: ['Stage Performances', 'Literary Competitions', 'Art Workshops', 'Student Recognition Awards'],
-    image: '/Art And Culture.jpeg',
+    image: '/art-and-culture.jpeg',
     iconName: 'Palette'
   },
   {
@@ -213,7 +213,7 @@ export const FACILITIES: Facility[] = [
     category: 'Leadership',
     description: 'Structured cadet training building leadership, patriotism, national service, physical stamina, and ethical character.',
     features: ['Cadet Drill Parade', 'Discipline & Leadership', 'National Level Camps', 'Patriotic Heritage'],
-    image: '/NCC.jpeg',
+    image: '/ncc.jpeg',
     iconName: 'ShieldCheck'
   },
   {
@@ -222,7 +222,7 @@ export const FACILITIES: Facility[] = [
     category: 'Faculty',
     description: 'Highly qualified, compassionate educators and mentors dedicated to student success and individual guidance.',
     features: ['Avg 15+ Yrs Experience', 'Personal Mentoring (1:15)', 'Continuous Academic Upgradation', 'Student Welfare Support'],
-    image: '/Staff.jpeg',
+    image: '/staff.jpeg',
     iconName: 'GraduationCap'
   }
 ];

@@ -38,7 +38,7 @@ const DEFAULT_SITE_DATA: SiteDataState = {
   heroData: {
     badgeText: '✨ Admissions Open 2026–27 • Nursery to Class 10 (State Syllabus)',
     headline: 'Cultivating Excellence for a New Era of Learning',
-    videoUrl: '/hero video.mp4',
+    videoUrl: '/hero-video.mp4',
     bgImageUrl: '/hero-bg.png',
   },
   brandBannerData: {
@@ -79,7 +79,7 @@ interface SiteDataContextType {
 
 const SiteDataContext = createContext<SiteDataContextType | undefined>(undefined);
 
-const LOCAL_STORAGE_KEY = 'vivaan_school_site_data_v6';
+const LOCAL_STORAGE_KEY = 'vivaan_school_site_data_v7';
 const ADMIN_AUTH_KEY = 'vivaan_school_admin_auth_v1';
 
 export const SiteDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
